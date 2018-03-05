@@ -1,0 +1,9 @@
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\Debug\TanksProject.exe.config
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\Debug\TanksProject.exe
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\Debug\TanksProject.pdb
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.csprojResolveAssemblyReference.cache
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.Properties.Resources.resources
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.csproj.GenerateResource.Cache
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.exe
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.pdb
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\Debug\TanksProject.Form1.resources

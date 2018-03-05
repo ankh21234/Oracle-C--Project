@@ -1,0 +1,10 @@
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\x86\1\TanksProject.exe.config
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\x86\1\TanksProject.exe
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\x86\1\TanksProject.pdb
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.Form1.resources
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.Properties.Resources.resources
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.csproj.GenerateResource.Cache
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.exe
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.pdb
+D:\Project DataBase Oracle\TanksProject\TanksProject\obj\x86\1\TanksProject.csprojResolveAssemblyReference.cache
+D:\Project DataBase Oracle\TanksProject\TanksProject\bin\x86\1\Oracle.DataAccess.dll

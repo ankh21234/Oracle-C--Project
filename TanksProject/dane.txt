@@ -1,0 +1,15 @@
+db:
+name: Tanks
+pass: TanksPass1
+oracle pass: oracle
+
+listener name: Tanks
+port: 1522
+
+conn name: Tanks
+username: TanksAdmin
+pass: TanksPass1
+
+user:
+tanksadmin
+tankspass1

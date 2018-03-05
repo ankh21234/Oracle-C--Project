@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TanksProject</name>
+    </assembly>
+    <members>
+        <member name="F:TanksProject.About.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.About.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.About.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmament.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddArmament.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddArmament.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddArmament.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmament.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddArmament.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmy.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddArmy.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddArmy.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddArmy.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmy.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddArmy.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmyToBattle.#ctor(System.Data.OracleClient.OracleConnection,System.Windows.Forms.Button)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddArmyToBattle.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddArmyToBattle.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddArmyToBattle.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddArmyToBattle.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddArmyToBattle.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddBattle.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddBattle.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddBattle.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddBattle.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddBattle.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddBattle.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddEngine.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddEngine.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddEngine.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddEngine.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddEngine.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddEngine.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddTank.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddTank.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddTank.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddTank.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddTank.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddTank.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddTankToNation.#ctor(System.Data.OracleClient.OracleConnection)">
+            <summary>
+            Konstruktor formularza
+            </summary>
+            <param name="or">Połączenie z bazą przekazywane z okna głównego</param>
+        </member>
+        <member name="M:TanksProject.AddTankToNation.buttonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda dodająca rekord do bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.AddTankToNation.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda zamykająca okno formularza
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.AddTankToNation.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.AddTankToNation.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.AddTankToNation.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.LogIn.#ctor">
+            <summary>
+            Konstruktor formularza
+            </summary>
+        </member>
+        <member name="M:TanksProject.LogIn.button_login_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do logowania się jako administrator bazy
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.LogIn.button_connect_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda do nawiązywania połączenia z bazą i wywołania formularza okna głównego
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.LogIn.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.LogIn.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.LogIn.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.#ctor">
+            <summary>
+            Konstruktor formularza okna głównego, dodatkowo nawiązuje automatycznie połączenie z bazą
+            </summary>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_showTanks_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_addTank_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_updateTank_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_showBattles_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_addBattle_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_updateBattle_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_showEngines_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_addEngine_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_updateEngine_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_showArmaments_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_addArmament_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_updateArmament_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_showArmies_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_addArmy_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.button_updateArmy_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonShowTanksNations_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonAddTankNation_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonDeleteTankNation_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda aktualizująca bazę danych na podstawie edycji wybranego w tabeli rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonShowNationsBattles_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wyświetlania rekordów z bazy 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonAddNationBattle_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do wywoływania formularza dodawania nowego rekordu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.buttonDeleteNationBattle_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda usuwająca wybrany rekord z bazy danych
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.menu_about_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda wywołująca formularz informacyjny
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.menu_documentation_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda wywołująca dokumentację
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.menu_disconnect_Click(System.Object,System.EventArgs)">
+            <summary>
+            Metoda służąca do rozłączenia się z bazą
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TanksProject.TanksMainWindow.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TanksProject.TanksMainWindow.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TanksProject.Properties.Resources">
+            <summary>
+              Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:TanksProject.Properties.Resources.ResourceManager">
+            <summary>
+            Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:TanksProject.Properties.Resources.Culture">
+            <summary>
+              Zastępuje właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+            </summary>
+        </member>
+        <member name="P:TanksProject.Properties.Resources._1">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
